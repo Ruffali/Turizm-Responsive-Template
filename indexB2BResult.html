@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Tourizm</title>
+    <!-- <link rel="icon" href="images/logo.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styleB2BResult.css">
+</head>
+
+<body>
+        <div class="carusel">
+                <div class="monitor">
+                    <div class="inner">
+                        <div class="slide" style="background-image: url(assets/Images/bg1.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg2.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg3.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg4.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg5.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg6.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg7.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg8.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg9.jpg)"></div>
+                        <div class="slide" style="background-image: url(assets/Images/bg10.jpg)"></div>
+                    </div>
+                    <i class="fa fa-close" id="close"></i>
+                    <i class="fa fa-chevron-left left" id="left"></i>
+                    <i class="fa fa-chevron-right right" id="right"></i>
+                </div>
+            </div>
+
+
+     <!-- NAVBAR-START -->
+     <section id="navbar" >
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  col-6 Logo ">
+                        <span class="logo1">
+                                <i class="fa fa-plane"></i> OWL</span>
+                            <span class="logo2">TOURISM</span>
+                   
+                </div>
+              
+                <div class="col-md-6 col-6 userInfo col-5">
+    
+                    <ul>
+                        <li class="pr-2" >Rufat Aliyev</li>
+                        <li > <a href="indexB2BLogin.html">Log out  <i class="fa fa-share"></i></a> </li>
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-- NAVBAR-END -->
+    
+<!-- Left-Side -->
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 leftSide">
+                    <section id="leftSide">
+                        <div class="row">
+                            <div class="col-md-12 leftHead">
+                                <div class="reservHeader">
+                                    <button>
+                                        <a href="">Reserve</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reservMain">
+                            <div class="row justify-content-center reserv">
+                                <div class="col-md-12 reservSklet">
+                                    <form class="hotel">
+                                        <div class="row reservHotel ">
+                                            <marquee behavior="" direction="">
+                                                <h1>Search</h1>
+                                            </marquee>
+                                            <div class="col-md-12   mt-3">
+                                                <label for="location">Destination/property name:</label>
+                                                <input id="location" type="text" placeholder="Samos">
+                                            </div>
+
+                                            <div class="col-md-12 col-6 mt-3">
+                                                <label for="check-in">Check-out date</label>
+                                                <input id="check-in" type="date" placeholder="Check-in Date">
+                                            </div>
+                                            <div class="col-md-12 col-6 mt-3">
+                                                <label for="check-out">Check-out</label>
+                                                <input id="check-out" type="date" placeholder=" Check-Out Date">
+                                            </div>
+                                            <div class="col-md-6 col-6 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">1 adult</option>
+                                                    <option value="">2 adults</option>
+                                                    <option value="">3 adults</option>
+                                                    <option value="">4 adults</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 col-6 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">No children</option>
+                                                    <option value="">1 child</option>
+                                                    <option value="">2 children</option>
+                                                    <option value="">3 children</option>
+                                                    <option value="">4 children</option>
+                                                    <option value="">5 children</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12 col-12 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">1 room</option>
+                                                    <option value="">2 rooms</option>
+                                                    <option value="">3 rooms</option>
+                                                    <option value="">4 rooms</option>
+                                                    <option value="">5 rooms</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12 mt-5">
+                                                <input class="btn" type="submit" value="SEARCH">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <!-- LEFT-SIDE-END -->
+
+            <!-- RIGHT-SIDE -->
+                <div class="col-md-8">
+                    <section id="rightSide">
+                        <div class="header">
+                            <h3>Samos: 5 properties available</h3>
+                            <span class="hotelStars">
+                                <i class="fa fa-star star"></i>
+                                <i class="fa fa-star star"></i>
+                                <i class="fa fa-star star"></i>
+                                <i class="fa fa-star star"></i>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="sliderBackground">
+                                    <div class="slider">
+                                        <i class="fa fa-arrow-circle-left"></i>
+                                        <i class="fa fa-arrow-circle-right"></i>
+                                        <div class="number">1</div>
+                                    </div>
+
+
+                                    <div class="wrapper">
+                                        <ul>
+                                            <li class="active pic">
+                                                <img src="assets/Images/bg1.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg2.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg3.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg4.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg5.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg6.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg7.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg8.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg9.jpg" alt="">
+                                            </li>
+                                            <li class="pic">
+                                                <img src="assets/Images/bg10.jpg" alt="">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="summary">
+                                    <div class="mainContent">
+                                        <h3>Stay in the heart of Amsterdam</h3>
+                                    </div>
+                                    <div class="content">
+                                        Situated in the characteristic canal district, Luxury Suites Amsterdam only offers spacious 5-star suites with bathrooms
+                                        of 10 to 20 square metres. Guests can enjoy the hotel bar, 24-hours reception and
+                                        free high-speed WiFi. Valet parking is available for a surcharge. The suites are
+                                        50 to 90 square metres large and come with a fully equipped kitchen and King size
+                                        bedding. Guests benefit from a seating area to relax in after a busy day and 1 or
+                                        2 large flat-screen TVs with international channels and internet. Air conditioning
+                                        and coffee/tea facilities are available. The spacious bathrooms are 10 to 20 square
+                                        metres and feature free toiletries, bathrobes and slippers. Off-site public parking
+                                        is possible at a 2-minute walk or secured valet parking is available for a surcharge.
+                                        The 9 Streets shopping area is 1,5 km away and P.C. Hooftstraat with its luxury shops
+                                        is 2,5 km away. Royal Palace Amsterdam is 700 m from Luxury Suites Amsterdam, while
+                                        Rembrandt House Museum is a 3-minute walk. The nearest airport is Schiphol Airport,
+                                        12 km from Luxury Suites Amsterdam and accessible by taxi or public transport. Central
+                                        Station is 1 tram stop away. Amsterdam City Centre is a great choice for travellers
+                                        interested in architecture, city trips and walking. This is our guests' favourite
+                                        part of Amsterdam, according to independent reviews. This property also has one of
+                                        the best-rated locations in Amsterdam! Guests are happier about it compared to other
+                                        properties in the area. Couples particularly like the location — they rated it 9.3
+                                        for a two-person trip. This property is also rated for the best value in Amsterdam!
+                                        Guests are getting more for their money when compared to other properties in this
+                                        city. We speak your language! Luxury Suites Amsterdam has been welcoming Booking.com
+                                        guests since 20 Mar 2015.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="property">
+                                    <div class="propertyHeader">
+                                        <h3>
+                                            Hotel includes
+                                        </h3>
+                                        <ul>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-child"></i>
+                                                </span>
+                                                <span class="content">Play room</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-venus-mars"></i>
+                                                </span>
+                                                <span class="content">Wedding service</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-beer"></i>
+                                                </span>
+                                                <span class="content">24 hour bar cafe</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-tint"></i>
+                                                </span>
+                                                <span class="content">Swimming pool</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-bath"></i>
+                                                </span>
+                                                <span class="content">Sauna</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-comments"></i>
+                                                </span>
+                                                <span class="content">Social meeting room</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-fire-extinguisher"></i>
+                                                </span>
+                                                <span class="content">No smoking rooms</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-heartbeat"></i>
+                                                </span>
+                                                <span class="content"> Fitness center</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="room-facilities">
+                                    <div class="all-room-facilities">
+                                        <h3>
+                                            All rooms includes
+                                        </h3>
+                                        <ul>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-cog"></i>
+                                                </span>
+                                                <span class="content">Air conditioning</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-pagelines"></i>
+                                                </span>
+                                                <span class="content">Garden view</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-tint"></i>
+                                                </span>
+                                                <span class="content">Pool view</span>
+                                            </li>
+                                            <li>
+
+                                                <span>
+                                                    <i class="fa fa-tree"></i>
+                                                </span>
+                                                <span class="content">Mountain view</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-shower"></i>
+                                                </span>
+                                                <span class="content">Private bathroom</span>
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <i class="fa fa-tv"></i>
+                                                </span>
+                                                <span class="content">Flat screen-TV</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RIGHT-SIDE-END -->
+
+
+
+    <!-- FOOTER-Black-START -->
+    <div id="footerBlack">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 leftSide">
+                    <ul>
+                        <li>
+                            <p>© 2018
+                                <a href="#">
+                                    <span>OWL</span>TOURISM</a>. All rights reserved.</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div> -->
+                <div class="col-lg-6 col-12 MainRightSide">
+                    <div class="rightSide">
+                        <ul>
+                            <li>
+                                <a href="#">Terms &#38; Condition</a>
+                            </li>
+                            <li>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER-Black-End -->
+
+
+    <!-- scroll-up -->
+    <a class="scrollToTop" href="#"></a>
+
+    <!-- scroll-up-end -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/mainB2BResult.js"></script>
+
+</body>
+
+</html>

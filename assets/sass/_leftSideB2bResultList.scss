@@ -1,0 +1,227 @@
+#leftSide{
+    margin-bottom: 10%;
+        .reservMain{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        .reserv{
+        padding-top: 4%;
+        .reservSklet{
+            border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+            border: 1px solid black;
+            background: rgba(0, 0, 0, 0.5);
+            
+            padding-bottom: 5%;
+            margin-bottom: 5%;
+
+
+            .reservHotel{
+
+                marquee{
+                    padding-top: 3%;
+                    padding-bottom: 1%;
+                    color: white;
+                font-family: 'Source Serif Pro', serif;
+                font-size: 10px;
+                    
+                }
+                label{
+                    color: white;
+
+                }
+
+                input,select{
+                    width: 100%;
+                    padding: 7px;
+                    border: 0.8px solid rgb(201, 200, 200);
+                    
+                }
+                input.btn{
+                background-color: rgba(54, 179, 137,0.8);
+                font-family: 'Source Serif Pro', serif;
+                font-weight: 500;
+                    color: white;
+
+                    &:hover{
+                    transition: all 0.3s ease;
+                    background:white;
+                    color: rgb(54, 179, 137);
+                    border:1px solid rgb(54, 179, 137);
+                    }
+                
+                }
+            }
+        }
+        }
+    } 
+
+    .part2{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 0;
+        
+
+        border: 1px solid black;
+
+        .header{
+            background-color: rgba(54, 179, 137,0.8);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: white;
+            padding: 8px 10px;
+           
+            h3{
+                margin-bottom: 0px;
+                font-size: 25px;
+                 font-family: 'Source Serif Pro', serif;
+                
+            }
+
+        }
+        .budget{
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5%;
+            p{
+                font-size: 1.5em;
+            }
+            ul{
+                li{
+                    padding-top: 5%;
+                    position: relative;
+                    span{
+                      left: 15%;
+                        position: absolute;;
+                    }
+                }
+            }
+        }
+        .rating{
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5%;
+            padding-top: 0%;
+            p{
+                font-size: 1.5em;
+            }
+            ul{
+                li{
+                    padding-top: 5%;
+                    position: relative;
+                    span{
+                      left: 15%;
+                        position: absolute;;
+                    }
+                    .stars{
+                        padding-left: 18%;
+                        .star{
+                        color: rgb(192, 192, 192);
+                        color: rgb(250, 166, 26);
+                        cursor: pointer;
+                        padding-left: 4%;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        * {
+            box-sizing: border-box;
+           }
+           
+           #check {
+          
+            display: inline-block;
+            // margin-top: 100px;
+            width: 22px;
+            height: 22px;
+            border: solid 1px white;
+            border-radius: 5px;
+            position: relative;
+            background:white;
+            
+            
+            & label {
+              height: 20px;
+              width: 40px;
+              z-index: 0;
+              display: inline-block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              
+              
+              & div {
+                height: 15px;
+                width: 15px;
+                border: solid 1.5px rgb(0, 0, 0);
+                margin: 2px;
+                border-radius: 50%;
+                transform: rotate(45deg);
+                
+                
+                transition: all 100ms ease-in-out, border 50ms ease 100ms;
+              }
+            }
+            
+            & input {
+              height: 20px;
+              width: 20px;
+              margin: 0;
+              opacity: 0;
+              z-index: 1;
+              position: relative;
+              cursor: pointer;
+               
+              &:checked + label > div {
+                border-radius: 0;
+                border-top: 0;
+                border-left: 0;
+                border-color: #000;
+                height: 15px;
+                width: 5px;
+                margin-top: 2px;
+                margin-left: 7px;
+                transform: rotate(40deg);
+              
+                
+                transition: all 150ms ease-in-out;
+              }
+            }
+           }
+    }
+}
+
+// #main{
+//     background-image: url("../Images/walpaper.jpg");
+//     background-attachment: fixed;
+// }
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #leftSide{
+      .part2{
+          .budget{
+              ul{
+                  li{
+                      span{
+                        font-size: 13px;
+                      }
+                  }
+              }
+          }
+          .rating{
+            ul{
+                li{
+                    span{
+                      font-size: 13px;
+                    }
+                    .stars{
+                        padding-left: 21%!important;
+                    }
+                }
+            }
+        }
+      }
+    }
+}
+    

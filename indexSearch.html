@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Tourizm</title>
+    <!-- <link rel="icon" href="images/logo.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styleSearch.css">
+</head>
+
+<body>
+
+
+
+    <!-- HEADER -->
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 leftSide">
+                    <ul>
+                        <li>
+                            <span>
+                                <i class="fa fa-street-view mr-2"></i>
+                            </span>
+                            Baku Azerbaijan Baygush Cafe
+                        </li>
+                        <li class="locate">
+                            <span>
+                                <i class="fa fa-phone mr-2"></i>
+                            </span>
+                            +994553388106
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 MainRightSide">
+                    <div class="rightSide">
+                        <a href="indexB2BLogin.html">
+                            <button type="button" class="btn">Company
+                                <i class="fa fa-angle-double-right ml-2"></i>
+                            </button>
+                        </a>
+
+                        <hr>
+                        <span class="lang">
+                            <a href="#">Az</a>
+                            <i class="fa fa-angle-down ml-2"></i>
+                        </span>
+                        <div class="insideLang">
+                            <ul>
+                                <li>
+                                    <a href="#">Az</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ru</a>
+                                </li>
+                                <li>
+                                    <a href="#">En</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER-END -->
+
+    <!-- NAVBAR-START -->
+    <div id="navbar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="#">
+                    <span class="logo1">
+                        <i class="fa fa-plane"></i> OWL</span>
+                    <span class="logo2">TOURISM</span>
+
+                </a>
+                <button style="color: #faa61a ;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="index.html">HOME
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FLIGHT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+    </div>
+    <!-- NAVBAR-END -->
+
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 leftSide">
+                    <section id="leftSide">
+                        <div class="reservMain">
+                            <div class="row justify-content-center reserv">
+                                <div class="col-md-12 reservSklet">
+                                    <form class="hotel">
+                                        <div class="row reservHotel ">
+                                            <marquee behavior="" direction="">
+                                                <h1>Search</h1>
+                                            </marquee>
+                                            <div class="col-md-12   mt-3">
+                                                <label for="location">Destination/property name:</label>
+                                                <input id="location" type="text" placeholder="Samos">
+                                            </div>
+
+                                            <div class="col-md-12 col-6 mt-3">
+                                                <label for="check-in">Check-out date</label>
+                                                <input id="check-in" type="date" placeholder="Check-in Date">
+                                            </div>
+                                            <div class="col-md-12 col-6 mt-3">
+                                                <label for="check-out">Check-out</label>
+                                                <input id="check-out" type="date" placeholder=" Check-Out Date">
+                                            </div>
+                                            <div class="col-md-6 col-6 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">1 adult</option>
+                                                    <option value="">2 adults</option>
+                                                    <option value="">3 adults</option>
+                                                    <option value="">4 adults</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 col-6 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">No children</option>
+                                                    <option value="">1 child</option>
+                                                    <option value="">2 children</option>
+                                                    <option value="">3 children</option>
+                                                    <option value="">4 children</option>
+                                                    <option value="">5 children</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12 col-12 mt-5">
+                                                <select name="" id="">
+                                                    <option value="">1 room</option>
+                                                    <option value="">2 rooms</option>
+                                                    <option value="">3 rooms</option>
+                                                    <option value="">4 rooms</option>
+                                                    <option value="">5 rooms</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12 mt-5">
+                                                <input class="btn" type="submit" value="SEARCH">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row ">
+                                <div class="col-md-12  part2">
+                                    <div class="header">
+                                        <h3>Refine by:</h3>
+                                    </div>
+                                    <div class="budget">
+                                        <p>Your budget</p>
+                                        <ul>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    AZN 0 - 100AZN per night
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    AZN 1000 - 200AZN per night
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    AZN 200 - 300AZN per night
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    AZN 300 - 400AZN per night
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    AZN 400+ per night
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <p>Star rating</p>
+                                        <ul>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    1 star
+                                                </span>
+                                                <span class="stars">
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    2 star
+                                                </span>
+                                                <span class="stars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    3 star
+                                                </span>
+                                                <span class="stars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    4 star
+                                                </span>
+                                                <span class="stars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    5 star
+                                                </span>
+                                                <span class="stars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+
+                                            </li>
+                                            <li>
+                                                <div id="check">
+                                                    <input type="checkbox" name="check">
+                                                    <label for="check">
+                                                        <div></div>
+                                                    </label>
+                                                </div>
+                                                <span>
+                                                    Unrated
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-8 rightSide">
+                    <section id="rightSide">
+                        <div class="header">
+                            <h3>Samos: 5 properties available</h3>
+                        </div>
+                        <div class="headerBtn">
+                            <button>
+                                <i class="fa fa-angle-double-down mr-2"></i> Lowest Price First</button>
+                            <button>
+                                <i class="fa fa-angle-double-up mr-2"></i> Highest Price First</button>
+                        </div>
+                        <div class=" row  hotelList">
+                            <div class="col-md-12 hotelInfo">
+                                <div class="hotel ">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="assets/Images/hotel1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <a href="#">
+                                                    <h3>Sirena Residence &#38; Spa</h3>
+                                                </a>
+                                                <span class="hotelStars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                                <p>AZN 181</p>
+                                                <a href="indexReserv.html">
+                                                    <button>See our last available rooms
+                                                        <i class="fa fa-angle-right ml-2"></i>
+                                                    </button>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="hotel ">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="assets/Images/hotel5.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <a href="#">
+                                                    <h3>Quentin Zoo hotel</h3>
+                                                </a>
+                                                <span class="hotelStars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                                <p>AZN 181</p>
+                                                <a href="indexReserv.html">
+                                                    <button>See our last available rooms
+                                                        <i class="fa fa-angle-right ml-2"></i>
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hotel ">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="assets/Images/hotel2.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <a href="#">
+                                                    <h3>Hotel Piet Hein</h3>
+                                                </a>
+                                                <span class="hotelStars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                                <p>AZN 181</p>
+                                                <a href="indexReserv.html">
+                                                    <button>See our last available rooms
+                                                        <i class="fa fa-angle-right ml-2"></i>
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hotel ">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="assets/Images/hotel3.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <a href="#">
+                                                    <h3>Conscious Hotel Vondelpark</h3>
+                                                </a>
+                                                <span class="hotelStars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                                <p>AZN 181</p>
+                                                <a href="indexReserv.html">
+                                                    <button>See our last available rooms
+                                                        <i class="fa fa-angle-right ml-2"></i>
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hotel ">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="assets/Images/hotel4.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <a href="#">
+                                                    <h3>Sirena Residence &#38; Spa</h3>
+                                                </a>
+                                                <span class="hotelStars">
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                    <i class="fa fa-star star"></i>
+                                                </span>
+                                                <p>AZN 181</p>
+                                                <a href="indexReserv.html">
+                                                    <button>See our last available rooms
+                                                        <i class="fa fa-angle-right ml-2"></i>
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pagination">
+                            <div class="col-md-4 col-8">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">4</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">5</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- FOOTER-START -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 contact">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-street-view mr-2"></i>
+                                <span>
+                                    Baku Azerbaijan Baygush Cafe
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone mr-2"></i>
+                                <span>
+                                    +994553388106
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope mr-2"></i>
+                                <span>examples@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 company">
+                    <h3>COMPANY</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    FLIGT
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    HOTEL
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    TOURS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    CRUISE
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    CARS
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 resources">
+                    <h3>RESOURCES</h3>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">BLOGS</a>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT US</a>
+                            </li>
+                            <li>
+                                <a href="#">LOGIN</a>
+                            </li>
+                            <li>
+                                <a href="#">REGISTER</a>
+                            </li>
+                            <li>
+                                <a href="#">SITE MAP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 about">
+                    <h3>ABOUT US</h3>
+                    <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam suscipit dolorem fuga ipsam hic, deleniti
+                            expedita, rerum id voluptates, quaerat sunt optio unde asperiores voluptas.</p>
+                        <ul>
+                            <li>
+
+                                <a href="#">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- FOOTER-End -->
+
+
+    <!-- FOOTER-Black-START -->
+    <div id="footerBlack">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 leftSide">
+                    <ul>
+                        <li>
+                            <p>© 2018
+                                <a href="#">
+                                    <span>OWL</span>TOURISM</a>. All rights reserved.</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div> -->
+                <div class="col-lg-6 col-12 MainRightSide">
+                    <div class="rightSide">
+                        <ul>
+                            <li>
+                                <a href="#">Terms &#38; Condition</a>
+                            </li>
+                            <li>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER-Black-End -->
+
+
+    <!-- scroll-up -->
+    <a class="scrollToTop" href="#"></a>
+
+    <!-- scroll-up-end -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/mainSearch.js"></script>
+
+</body>
+
+</html>

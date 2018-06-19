@@ -1,0 +1,312 @@
+
+
+body{
+background-image:url("../Images/reservation.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#navbar{
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.4);
+background-color: rgba(255, 255, 255,0.71);
+
+
+
+    .Logo{
+        span.logo1{
+
+            color: rgb(54, 179, 137);
+            font-size: 28px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+    
+            i.fa{
+                font-size: 34px;
+                padding-right: 1%;
+            }
+        }
+    
+        span.logo2{
+            color: black;
+            font-size: 28px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+    
+    }
+
+
+    .userInfo{
+        text-align: right;
+        ul{
+            li{
+                display: inline-block;
+                font-size: 18px;
+            font-family: 'Lato', sans-serif;
+                
+a{
+ color:   rgb(54, 179, 137);
+}
+            }
+        }
+    }
+}
+
+
+
+#reservation{
+    margin-top: 3%;
+ 
+
+    .reservMain{
+   
+
+
+      .reserv{
+        padding-top: 4%;
+        .reservSklet{
+            border-radius: 5px;
+          
+            background: rgba(0, 0, 0, 0.38);
+         
+          padding-bottom: 5%;
+        //   margin-bottom: 5%;
+
+
+            .reservHotel{
+
+                marquee{
+                    padding-top: 3%;
+                    padding-bottom: 1%;
+                    color: white;
+                font-family: 'Source Serif Pro', serif;
+                font-size: 10px;
+                    
+                }
+                label{
+                    color: white;
+
+                }
+
+                input,select{
+                    width: 100%;
+                    padding: 7px;
+                    border: 0.8px solid rgb(201, 200, 200);
+                    
+                }
+                input.btn{
+                background-color: rgb(54, 179, 137);
+                font-family: 'Source Serif Pro', serif;
+                font-weight: 500;
+                 color: white;
+
+                 &:hover{
+                   transition: all 0.3s ease;
+                   background:white;
+                   color: rgb(54, 179, 137);
+                   border:1px solid rgb(54, 179, 137);
+                 }
+                
+                }
+            }
+            .non{
+                display: none;
+            }
+            
+        }
+
+       
+
+      }
+
+    }
+
+
+}
+@media only screen and (min-width : "320px") and (max-width: "359px"){
+    #reservation{
+        height: 85.2vh!important;
+        .reservMain{
+            margin-top: 1%!important;
+        }
+
+    }
+    #navbar{
+        .Logo{
+            span.logo1{
+                font-size: 15px!important;
+                .fa{
+                    font-size: 15px!important;
+                }
+            }
+            span.logo2{
+                font-size: 15px!important;
+            }
+        }
+        .userInfo{
+            ul{
+                li{
+                font-size: 10px!important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : "360px") and (max-width: "374px"){
+    #reservation{
+        height: 81.5vh!important;
+        .reservMain{
+            margin-top: 11%!important;
+        }
+    }
+    #navbar{
+        .Logo{
+            span.logo1{
+                font-size: 15px!important;
+                .fa{
+                    font-size: 15px!important;
+                }
+            }
+            span.logo2{
+                font-size: 15px!important;
+            }
+        }
+        .userInfo{
+            ul{
+                li{
+                font-size: 10px!important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : "375px") and (max-width: "410px"){
+    #reservation{
+        height: 76.5vh!important;
+        .reservMain{
+            margin-top: 35%;
+        }
+    }
+    #navbar{
+        .Logo{
+            span.logo1{
+                font-size: 15px!important;
+                .fa{
+                    font-size: 15px!important;
+                }
+            }
+            span.logo2{
+                font-size: 15px!important;
+            }
+        }
+        .userInfo{
+            ul{
+                li{
+                font-size: 10px!important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : "411px") and (max-width: "413px"){
+    #reservation{
+        height: 80vh!important;
+        margin-top: -6%;
+        .reservMain{
+            margin-top: 26%!important;
+        }
+    }
+    #navbar{
+        .Logo{
+            span.logo1{
+                font-size: 15px!important;
+                .fa{
+                    font-size: 15px!important;
+                }
+            }
+            span.logo2{
+                font-size: 15px!important;
+            }
+        }
+        .userInfo{
+            ul{
+                li{
+                font-size: 10px!important;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (min-width : "414px") and (max-width: "767px"){
+    #reservation{
+        height: 76.2vh!important;
+        .reservMain{
+            margin-top: 20%;
+        }
+    }
+    #navbar{
+        padding-bottom: 0.5%;
+        .Logo{
+            span.logo1{
+                font-size: 15px!important;
+                .fa{
+                    font-size: 15px!important;
+                }
+            }
+            span.logo2{
+                font-size: 15px!important;
+            }
+        }
+        .userInfo{
+            ul{
+                li{
+                font-size: 10px!important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : "768px") and (max-width: "1023px"){
+    #reservation{
+        height: 70.2vh;
+        .reservMain{
+            margin-top: 31%;
+        }
+    }
+    #navbar{
+        .userInfo{
+            padding-top: 1%;
+        }
+    }
+
+}
+@media only screen and (max-width : "1024px"){
+    #reservation{
+        height: 71.2vh;
+        .reservMain{
+            margin-top: 31%;
+        }
+    }
+    #navbar{
+        .userInfo{
+            padding-top: 1%;
+        }
+    }
+}
+// @media only screen and (min-width : "1385px") and (max-width: "2560px"){
+//     #reservation{
+//         height: 71.2vh;
+//         .reservMain{
+//             margin-top: 14%;
+//         }
+//     }
+//     #navbar{
+//         .userInfo{
+//             padding-top: 1%;
+//         }
+//     }
+// }

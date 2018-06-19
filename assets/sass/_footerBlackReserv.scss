@@ -1,0 +1,176 @@
+#footer{
+    background: black;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    .row{
+      font-family: 'Lato', sans-serif;
+        h3{
+            color: rgb(250, 166, 26);
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 600;
+        }
+        .contact{
+       
+            
+         
+            div{
+                 margin-top: 15%;
+                 color: white;
+                 font-size: 17px;
+                 li{
+                     padding-bottom: 10%;
+                 }
+            }
+           
+        }
+    
+        .company{
+            text-align: center;
+            div{
+                
+                a{
+                    color: white;
+                    font-size: 17px;
+                }
+                margin-top: 15%;
+               
+                
+                li{
+                    padding-bottom: 5%;
+                }
+           }
+        }
+    
+        .resources{
+            text-align: center;
+            div{
+                
+                a{
+                    color: white;
+                    font-size: 17px;
+                }
+                margin-top: 15%;
+               
+                
+                li{
+                    padding-bottom: 5%;
+                }
+           }
+    
+        }
+        .about{
+            h3{
+            text-align: center;
+            }
+            
+            div{
+                p{
+                    color: white;
+                    font-size: 15px;
+                    text-align: center;
+                }
+                margin-top: 15%;
+    
+                ul{
+                    padding-left: 20%;
+                  
+                      li{
+                    display: inline-block;
+                    padding-right: 5%;
+                 
+                    i.fa{
+                        padding: 10px;
+                        border: 1px solid  white;
+                        color: white;
+                        transition: all 0.4s ease;
+    
+                        &:hover{
+                           border: 1px solid rgb(250, 166, 26);
+                           color :rgb(250, 166, 26)
+                        }
+                    }
+                
+                }
+    
+    
+                }
+              
+           }
+    
+        }
+    
+    
+    }
+    
+    
+    
+    }
+    @media  screen and (min-width: 320px) and (max-width: 767px){
+        #footer{
+            .contact{
+                text-align: center;
+            }
+            .about{
+                div{
+                    ul{
+                        padding-left: 26%!important;
+                    }
+                }
+            }
+        }
+    }
+    @media  screen and (min-width: 768px) and (max-width: 1100px){
+        #footer{
+            .col-md-3{
+                h3{
+                    font-size: 1.2em;
+                }
+            }
+            .contact{
+                div{
+                     font-size: 9px!important;
+                }
+            }
+            .company{
+                div{
+                    a{
+                     font-size: 12px!important;
+                    }
+                }
+            }
+            .resources{
+                div{
+                    a{
+                     font-size: 12px!important;
+                    }
+                }
+            }
+            .about{
+                div{
+                    p{
+                     font-size: 12px!important;
+                    }
+                    ul{
+                        padding: 0!important;
+                        li{
+                            padding-right: 3%!important;
+                            i.fa{
+                                padding: 8px!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media  screen and (min-width: 1024px) and (max-width: 1100px){
+        #footer{
+            .about{
+                div{
+                    ul{
+                        padding: 30px!important;
+                    }
+                }
+            }
+        }
+    }

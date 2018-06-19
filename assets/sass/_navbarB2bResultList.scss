@@ -1,0 +1,201 @@
+body{
+    overflow-x: hidden;
+  
+             background-image: url("../Images/walpaperResult.jpg");
+            background-attachment: fixed;
+}
+
+
+#navbar{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
+
+
+    
+    
+    
+        .Logo{
+            span.logo1{
+    
+                color: rgb(54, 179, 137);
+                font-size: 28px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+        
+                i.fa{
+                    font-size: 34px;
+                    padding-right: 1%;
+                }
+            }
+        
+            span.logo2{
+                color: white;
+                font-size: 28px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+            }
+        
+        }
+    
+    
+        .userInfo{
+            text-align: right;
+            ul{
+                li{
+                    display: inline-block;
+                    font-size: 18px;
+                font-family: 'Lato', sans-serif;
+                color: white;
+                    
+    a{
+     color:   rgb(54, 179, 137);
+    }
+                }
+            }
+        }
+    }
+
+
+    @media only screen and (min-width : "320px") and (max-width: "359px"){
+
+        #navbar{
+            .Logo{
+                span.logo1{
+                    font-size: 15px!important;
+                    .fa{
+                        font-size: 15px!important;
+                    }
+                }
+                span.logo2{
+                    font-size: 15px!important;
+                }
+            }
+            .userInfo{
+                ul{
+                    li{
+                    font-size: 10px!important;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width : "360px") and (max-width: "374px"){
+ 
+        #navbar{
+            .Logo{
+                span.logo1{
+                    font-size: 15px!important;
+                    .fa{
+                        font-size: 15px!important;
+                    }
+                }
+                span.logo2{
+                    font-size: 15px!important;
+                }
+            }
+            .userInfo{
+                ul{
+                    li{
+                    font-size: 10px!important;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width : "375px") and (max-width: "410px"){
+
+        #navbar{
+            .Logo{
+                span.logo1{
+                    font-size: 15px!important;
+                    .fa{
+                        font-size: 15px!important;
+                    }
+                }
+                span.logo2{
+                    font-size: 15px!important;
+                }
+            }
+            .userInfo{
+                ul{
+                    li{
+                    font-size: 10px!important;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width : "411px") and (max-width: "413px"){
+
+        #navbar{
+            .Logo{
+                span.logo1{
+                    font-size: 15px!important;
+                    .fa{
+                        font-size: 15px!important;
+                    }
+                }
+                span.logo2{
+                    font-size: 15px!important;
+                }
+            }
+            .userInfo{
+                ul{
+                    li{
+                    font-size: 10px!important;
+                    }
+                }
+            }
+        }
+        
+    }
+    @media only screen and (min-width : "414px") and (max-width: "767px"){
+
+        #navbar{
+            padding-bottom: 0.5%;
+            .Logo{
+                span.logo1{
+                    font-size: 15px!important;
+                    .fa{
+                        font-size: 15px!important;
+                    }
+                }
+                span.logo2{
+                    font-size: 15px!important;
+                }
+            }
+            .userInfo{
+                ul{
+                    li{
+                    font-size: 10px!important;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width : "768px") and (max-width: "1023px"){
+
+        #navbar{
+            .userInfo{
+                padding-top: 1%;
+            }
+        }
+    
+    }
+    @media only screen and (max-width : "1024px"){
+        #reservation{
+            height: 71.2vh;
+            .reservMain{
+                margin-top: 31%;
+            }
+        }
+        #navbar{
+            .userInfo{
+                padding-top: 1%;
+            }
+        }
+    }
+
+

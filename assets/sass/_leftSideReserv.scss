@@ -1,0 +1,97 @@
+#leftSide{
+    margin-bottom: 10%;
+        .reservMain{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        .reserv{
+        padding-top: 4%;
+        .reservSklet{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border: 1px solid black;
+            background: rgba(0, 0, 0, 0.5);
+            
+            padding-bottom: 5%;
+            margin-bottom: 5%;
+
+
+            .reservHotel{
+
+                marquee{
+                    padding-top: 3%;
+                    padding-bottom: 1%;
+                    color: white;
+                    font-family: 'Source Serif Pro', serif;
+                    font-size: 10px;
+                }
+                label{
+                    color: white;
+
+                }
+
+                input,select{
+                    width: 100%;
+                    padding: 7px;
+                    border: 0.8px solid rgb(201, 200, 200);
+                    
+                }
+                input.btn{
+                background-color: rgba(250, 166, 26, 0.8);
+                font-family: 'Source Serif Pro', serif;
+                font-weight: 500;
+                    color: white;
+
+                    &:hover{
+                    transition: all 0.3s ease;
+                    background:white;
+                    color: #faa61a;
+                    border:1px solid #faa61a;
+                    }
+                
+                }
+            }
+        }
+        }
+    } 
+    .row{
+        .leftHead{
+            margin-top: 5%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-top: 4%;
+            padding-bottom: 4%;
+            border: 1px solid black;
+            .reservHeader{
+                button{
+                    background-color: rgba(250, 166, 26, 0.8);
+                    width: 100%;
+                    padding: 7px;
+                    border: 0.8px solid #c9c8c8;
+                    border-radius: 10px;
+                    &:hover{
+                        transition: all 0.3s ease;
+                        background: white;
+                        border: 1px solid #faa61a;                             
+                    }
+                    &:hover a{
+                        color: #faa61a; 
+                    }
+                    a{
+                        font-family: 'Source Serif Pro', serif;
+                        font-weight: 600;
+                        color: white; 
+                        text-decoration: none;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+#main{
+    background-image: url("../Images/walpaper.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

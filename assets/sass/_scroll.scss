@@ -1,0 +1,54 @@
+.scrollToTop{
+
+
+    width:70px;
+    height: 70px;
+    position: fixed;
+    top: 89%;
+    right: 1%;
+    background-image: url("../Images/up.png");
+    background-size: contain;
+    background-position: center;
+    z-index: 9999;
+    box-shadow: 0px 0px 50px 5px #fd7a00;
+    border-radius: 50%;
+}
+@media  screen and (min-width: 320px) and (max-width: 359px){
+    .scrollToTop{
+        width: 50px!important;
+        height: 50px!important;
+        right: 5%;
+    }
+}
+@media  screen and (min-width: 360px) and (max-width: 374px){
+    .scrollToTop{
+        width: 50px!important;
+        height: 50px!important;
+        top: 91%!important;
+        right: 5%;
+    }
+}
+@media  screen and (min-width: 375px) and (max-width: 413px){
+    .scrollToTop{
+        width: 50px!important;
+        height: 50px!important;
+        top: 93%!important;
+        right: 5%;
+    } 
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    .scrollToTop{
+        width: 70px!important;
+        height: 70px!important;
+        top: 92%!important;
+        right: 5%;
+    } 
+}
+@media  screen and (min-width: 1024px) and (max-width: 1100px){
+    .scrollToTop{
+        width: 70px!important;
+        height: 70px!important;
+        top: 89%!important;
+        right: 2%;
+    } 
+}

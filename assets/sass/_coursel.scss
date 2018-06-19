@@ -1,0 +1,355 @@
+#coursel{
+    .item{
+        height:750px;
+        width: 100%;
+        position: relative;
+
+.content3{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    color: #f2f2f2;
+    font-weight: bold;
+    
+    h2{
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    padding-top: 10%;
+    font-size:   35px;
+    letter-spacing: 0.1cm;
+    animation-name: fadeInUp;
+    animation-iteration-count: infinite;
+    animation-duration: 4.5s;
+    animation-delay: 9s;
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+             0 2px 0 hsl(174,5%,75%),
+             0 3px 0 hsl(174,5%,70%),
+             0 4px 0 hsl(174,5%,66%),
+             0 5px 0 hsl(174,5%,64%),
+             0 6px 0 hsl(174,5%,62%),
+             0 7px 0 hsl(174,5%,61%),
+             0 8px 0 hsl(174,5%,60%),
+
+             0 0 5px rgba(0,0,0,.05),
+            0 1px 3px rgba(0,0,0,.2),
+            0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.2),
+          0 10px 10px rgba(0,0,0,.2),
+          0 20px 20px rgba(0,0,0,.3);
+    }
+
+    h1{
+        text-transform: uppercase;
+        letter-spacing: -3px;
+        padding-top: 10%;
+        font-size:   100px;
+        letter-spacing: 0.7cm;
+        animation-name: fadeInOut;
+
+   
+        animation-iteration-count: infinite;
+        animation-duration: 4.5s;
+        animation-delay: 9s;
+        text-shadow:     0 1px 0 hsl(174,5%,80%),
+             0 2px 0 hsl(174,5%,75%),
+             0 3px 0 hsl(174,5%,70%),
+             0 4px 0 hsl(174,5%,66%),
+             0 5px 0 hsl(174,5%,64%),
+             0 6px 0 hsl(174,5%,62%),
+             0 7px 0 hsl(174,5%,61%),
+             0 8px 0 hsl(174,5%,60%),
+
+             0 0 5px rgba(0,0,0,.05),
+            0 1px 3px rgba(0,0,0,.2),
+            0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.2),
+          0 10px 10px rgba(0,0,0,.2),
+          0 20px 20px rgba(0,0,0,.3);
+    }
+
+}
+
+        .content1{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            font-family: 'Source Serif Pro', serif;
+            color: #f2f2f2;
+            font-weight: bold;
+            
+            h2{
+                text-transform: uppercase;
+                letter-spacing: -3px;
+                padding-top: 10%;
+              font-size:   35px;
+            letter-spacing: 0.1cm;
+            animation-name: fadeInTop;
+            animation-iteration-count: infinite;
+            animation-duration: 4.5s;
+            animation-delay: 4.5s;
+            text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+            }
+
+            h1{
+                text-transform: uppercase;
+                letter-spacing: -3px;
+                padding-top: 10%;
+                font-size:   100px;
+                letter-spacing: 0.7cm;
+                animation-name: fadeInDown;
+            animation-delay: 4.5s;
+            animation-iteration-count: infinite;
+            animation-duration: 4.5s;
+                text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+            }
+          
+
+
+        }
+        .content{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            font-family: 'Source Serif Pro', serif;
+            color: #f2f2f2;
+            font-weight: bold;
+            
+            h2{
+                text-transform: uppercase;
+                letter-spacing: -3px;
+                padding-top: 10%;
+              font-size:   35px;
+            letter-spacing: 0.1cm;
+            animation-name: fadeInleft;
+            animation-iteration-count: infinite;
+            animation-duration: 4.5s;
+
+            text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+            }
+
+            h1{
+                text-transform: uppercase;
+                letter-spacing: -3px;
+                padding-top: 10%;
+                font-size:   100px;
+                letter-spacing: 0.7cm;
+                animation-name: fadeInright;
+                animation-iteration-count: infinite;
+                animation-duration: 4.5s;
+                text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+            }
+          
+        }
+        }
+        
+     .section2 .owl-carousel .item  img {
+            vertical-align: middle;
+            border-style: none;
+            height: 700px;
+        }
+       .customNextBtn{
+        position: absolute;
+        top: 45%;
+        right: 7%;
+        font-size: 40px;
+        z-index: 222;
+        cursor: pointer;
+        opacity: 0.5;
+        color: white; 
+        }
+        .customPrevBtn{
+        position: absolute;
+        top: 45%;
+        left: 7%;
+        z-index: 222;
+        font-size: 40px;
+        cursor: pointer;
+        opacity: 0.5;
+        color: white; 
+        }
+        .owl-dots{
+      display: none;
+        } 
+    }
+
+    @keyframes fadeInleft {
+        from {
+          opacity: 0;
+          transform: translate3d(-100%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+
+      @keyframes fadeInright {
+        from {
+          opacity: 0;
+          transform: translate3d(100%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+      @keyframes fadeInTop {
+        from {
+          opacity: 0;
+          transform: translate3d(0, -100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translate3d(0, 100%, 0);
+        }
+      
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: scale3d(0.3, 0.3, 0.3);
+        
+        }
+      
+        50% {
+          opacity: 1;
+    
+        }
+      }
+
+
+      @keyframes fadeInOut {
+        from {
+          opacity: 0;
+          transform: scale3d(0.3, 0.3, 0.3);
+ 
+        }
+      
+        50% {
+          opacity: 1;
+
+        }
+      }
+
+      @media  screen and (min-width: 320px) and (max-width: 767px){
+        #coursel{
+          .item{
+            height: 560px!important;
+          }
+            .mainContent{
+                left: 50%!important;
+            }
+            .content{
+              h2{
+                padding-right: 10%!important;
+              }
+              h1{
+                padding-left: 10%!important;
+              }
+            }
+            .content1{
+              h2{
+                padding-right: 5%!important;
+              }
+              h1{
+                padding-left: 7%!important;
+              }
+            }
+            .content3{
+              h2{
+                padding-right: 5%!important;
+              }
+              h1{
+                padding-left: 10%!important;
+              }
+            }
+         h2{
+            font-size:   15px!important;
+         }
+         h1{
+            font-size:   35px!important;
+         }
+        }
+    }
